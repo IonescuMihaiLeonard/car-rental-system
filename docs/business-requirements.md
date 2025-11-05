@@ -94,7 +94,6 @@ Scopul proiectului este implementarea unui **MVP (Minimum Viable Product)** care
 - **README.md** – instrucțiuni de rulare și detalii despre proiect  
 - **Swagger UI** – documentația API (http://localhost:8080/swagger-ui/index.html)  
 - **Postman Collection** – fișier pentru testarea endpoint-urilor  
-- **Diagrama ERD** *(opțional)* – pentru modelarea relațiilor între entități  
 
 ---
 
