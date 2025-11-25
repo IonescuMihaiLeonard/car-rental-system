@@ -49,13 +49,12 @@ Proiectul este construit folosind principiile **Spring Boot 3** și **arhitectur
 ## 🧪 Tehnologii utilizate
 
 - **Java 17+**
-- **Spring Boot 3**
-- **Spring Data JPA / Hibernate**
+- **Spring Boot 4.0.0**
+- **Spring Data JPA**
 - **Spring Validation**
 - **Spring Security (JWT sau Basic Auth)**
-- **H2 / MySQL Database**
-- **Swagger / OpenAPI** – pentru documentarea endpoint-urilor
-- **JUnit 5 & Mockito** – pentru testare
+- **MySQL Database**
+- **PostMan** – pentru documentarea endpoint-urilor
 - **Maven** – pentru build și managementul dependențelor
 
 ---
