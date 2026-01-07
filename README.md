@@ -16,9 +16,8 @@ Clienții pot vizualiza mașinile disponibile, pot face rezervări și pot lăsa
 
 1. **Gestionarea mașinilor** – CRUD complet (create, read, update, delete) pentru entitățile de tip mașină.  
 2. **Gestionarea rezervărilor** – creare, anulare și vizualizare rezervări.  
-3. **Autentificare și autorizare** – roluri pentru client și administrator.  
-4. **Calcul automat al prețului** – pe baza perioadei și a tarifului zilnic al mașinii.  
-5. **Recenzii clienți** – adăugare și afișare recenzii pentru fiecare mașină.
+3. **Calcul automat al prețului** – pe baza perioadei și a tarifului zilnic al mașinii.  
+4. **Recenzii clienți** – adăugare și afișare recenzii pentru fiecare mașină.
 
 ---
 
@@ -52,7 +51,6 @@ Proiectul este construit folosind principiile **Spring Boot 3** și **arhitectur
 - **Spring Boot 4.0.0**
 - **Spring Data JPA**
 - **Spring Validation**
-- **Spring Security (JWT sau Basic Auth)**
 - **MySQL Database**
 - **PostMan** – pentru documentarea endpoint-urilor
 - **Maven** – pentru build și managementul dependențelor
