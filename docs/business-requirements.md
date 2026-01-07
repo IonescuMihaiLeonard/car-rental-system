@@ -22,8 +22,6 @@ Scopul proiectului este implementarea unui **MVP (Minimum Viable Product)** care
 6. Administratorii pot adăuga, modifica și șterge mașini din baza de date.  
 7. Sistemul calculează automat costul total al rezervării în funcție de numărul de zile și tariful mașinii.  
 8. Clienții pot lăsa o recenzie și un rating pentru mașinile închiriate.  
-9. Administratorii pot vizualiza rapoarte privind închirierile, încasările și cele mai populare mașini.  
-10. Utilizatorii (clienți și administratori) se pot autentifica în sistem pentru a accesa funcțiile corespunzătoare rolului lor.
 
 ---
 
@@ -39,17 +37,12 @@ Scopul proiectului este implementarea unui **MVP (Minimum Viable Product)** care
 - Sistemul verifică disponibilitatea și previne rezervările suprapuse.  
 - Calcul automat al costului rezervării.
 
-### 3️⃣ Autentificare și gestionare utilizatori
-- Înregistrare și autentificare utilizatori (Spring Security).  
-- Roluri: `ADMIN` și `CLIENT`.  
-- Administratorul poate vizualiza toți utilizatorii.
-
-### 4️⃣ Calculul prețului și validarea datelor
+### 3️⃣ Calculul prețului și validarea datelor
 - Tariful zilnic este definit pentru fiecare mașină.  
 - Costul total se calculează automat în funcție de durata rezervării.  
 - Validări pentru datele de început și sfârșit ale rezervării.
 
-### 5️⃣ Recenzii și evaluări
+### 4️⃣ Recenzii și evaluări
 - Clienții pot adăuga o recenzie și un rating după finalizarea rezervării.  
 - Administratorii pot modera recenziile.  
 - Recenziile sunt afișate public pentru fiecare mașină.
@@ -92,7 +85,6 @@ Scopul proiectului este implementarea unui **MVP (Minimum Viable Product)** care
 ## 🧾 7. Resurse adiționale
 
 - **README.md** – instrucțiuni de rulare și detalii despre proiect  
-- **Swagger UI** – documentația API (http://localhost:8080/swagger-ui/index.html)  
 - **Postman Collection** – fișier pentru testarea endpoint-urilor  
 
 ---
